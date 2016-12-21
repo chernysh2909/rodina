@@ -1,62 +1,361 @@
 <!doctype html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>rodina</title>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="ru">
+<!--<![endif]-->
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+  <meta name="description" content="">
+  <meta name="viewport" content="width=1024">
+  <title>rodina</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- build:css styles/plugins.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+<body>
+  <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
+  <div id="top-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 logo">
+          <img src="images/logo.png" alt="" class="center-block img-responsive">
+          <!-- <p class="text-center"><b>Соціальні</b> послуги</p> -->
+        </div>
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="language-select-wrapper">
+                <label for="language-select">
+                  <select name="test" id="language-select">
+                    <option value="uk">uk</option>
+                    <option value="ru">ru</option>
+                    <option value="en">en</option>
+                  </select>
+                </label>
+                <span> оберіть мову</span>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <img src="images/rodyna.png" alt="">
+            </div>
+            <div class="col-sm-4">
+              <p>
+                <a href=""><img src="images/facebook-ico.png" alt="" class="facebook"></a>
+                <a href=""><img src="images/youtube-ico.png" alt="" class="youtube"></a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="wrapper-search">
+                <label for="search-line">
+                  <input type="text" id="search-line">
+                </label>
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="col-sm-4">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+  </div>
+  <!-- end #top-nav-->
+  <menu id="menu">
+    <div class="container">
+      <div class="row">
+        <!--         <div class="col-sm-3">
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+        </div> -->
+        <div class="col-sm-12">
+          <span class="title"><b>Соціальні</b> послуги</span>
+          <ul>
+            <li>
+              <a href="">Соціальні послуги</a>
+            </li>
+            <li>
+              <a href="">Надавачі послуг</a>
+            </li>
+            <li>
+              <a href="">Досвід в інших країнах</a>
+            </li>
+            <li>
+              <a href="">Публікації</a>
+            </li>
+            <li>
+              <a href="">Відео </a>
+            </li>
+            <li>
+              <a href="">Законодавство </a>
+            </li>
+            <li>
+              <a href="">Відгуки</a>
+            </li>
+            <li>
+              <a href="">FAQ </a>
+            </li>
+            <li><a href="">Контакти</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </menu>
+  <!-- end menu -->
+  <div id="slider">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="wrapper">
+          <div class="container">
+            <div class="wrapper-clicker">
+              <div id="prev" class="pull-left btn"></div>
+              <div id="next" class="pull-right btn"></div>
+            </div>
+          </div>
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="images/slider.jpg"></div>
+            <div class="item"><img src="images/slider.jpg"></div>
+            <div class="item"><img src="images/slider2.jpg"></div>
+            <div class="item"><img src="images/slider2.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <hr>
+    </div>
+  </div>
+  <div id="soc">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="heading">
+            <p><img src="images/soc-ico.png" alt="">Про соціальні послуги</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="icon">
+            <img src="images/soc.jpg" alt="" class="img-responsive center-block ">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="text">
+            <p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа соответствующий условий активизации. С другой стороны консультация с широким активом влечет за собой процесс внедрения и модернизации форм развития. Задача организации, в особенности же начало повседневной работы по формированию позиции требуют от нас анализа дальнейших направлений развития. Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки соответствующий условий активизации. Равным образом сложившаяся структура организации позволяет оценить значение систем массового участия.</p>
+            <p>
+              Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+            <p>Повседневная практика показывает, что новая модель организационной деятельности в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Разнообразный и богатый опыт консультация с широким активом влечет за собой процесс внедрения и модернизации систем массового участия. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end #soc
+ -->
+  <div class="container">
+    <div class="row">
+      <hr>
+    </div>
+  </div>
+  <div id="soc-poslug">
+    <div class="container">
+      <div class="heading">
+        <p class="text-center"><img src="images/soc-posluga.png" alt="">соціальні послуги </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6">
+                <div class="wrapper-inside">
+                  <div class="title">
+                    <p>ЩО таке соцпослуги?</p>
+                  </div>
+                  <div class="text">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /// -->
+  <div id="soc-poslug-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6">
+                <div class="wrapper-inside">
+                  <div class="title">
+                    <p>ХТО їх може отримувати?</p>
+                  </div>
+                  <div class="text">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="soc-poslug-three">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6">
+                <div class="wrapper-inside ">
+                  <div class="title">
+                    <p>Хто їх надає?</p>
+                  </div>
+                  <div class="text">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /// -->
+  <div id="soc-poslug-four">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6">
+                <div class="wrapper-inside ">
+                  <div class="title">
+                    <p>Як їх отримати?</p>
+                  </div>
+                  <div class="text">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /// -->
+  <div id="soc-poslug-five">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6">
+                <div class="wrapper-inside ">
+                  <div class="title">
+                    <p>Що отримуємо в результаті?</p>
+                  </div>
+                  <div class="text">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение направлений прогрессивного развития.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /// -->
+  <!-- end #soc-poslug
+ -->
+  <div id="form-bg">
+    <div class="container">
+      <div class="heading text-center">
+        <p><b>Змінюємо</b> <span>життя</span> разом?</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <form action="/">
+            <div class="text-center">
+              <label for="name-form">
+                <input type="text" class="center-block" id="name-form" name="Name" placeholder="ім'я" required="">
+              </label>
+              <label for="number-form">
+                <input type="text" class="center-block" id="number-form" name="Number" placeholder="телефон" required="">
+              </label>
+              <p>
+                <label for="text-comment">
+                  <textarea name="text" id="text-comment"></textarea>
+                </label>
+              </p>
+              <button type="submit">Відправити</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end #form-bg -->
+  <div class="container">
+    <div class="row">
+      <hr>
+    </div>
+  </div>
+  <div id="for-soc">
+    <div class="container">
+      <div class="heading">
+        <p class="text-center"><img src="images/for-soc.png" alt=""> Надавачі послуг</p>
+      </div>
+    </div>
+  </div>
+  <!-- using libs -->
+  <!-- {jquery.js, animate.css, modernizr.js, owl.carousel2, font-awesome} -->
+  <!-- end libs -->
+  <!-- build:js scripts/plugins.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/owl.carousel/dist/owl.carousel.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
